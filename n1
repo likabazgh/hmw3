@@ -1,0 +1,4 @@
+number_x = int(input("type x: "))
+number_y = int(input("type y: "))
+power = number_x ** number_y
+print(power)
