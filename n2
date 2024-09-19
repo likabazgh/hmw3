@@ -1,0 +1,4 @@
+import random
+random_num = random.randint(0, 1000)
+rounded_num = round(random_num, -1)
+print(rounded_num)
