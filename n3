@@ -1,0 +1,5 @@
+from datetime import datetime
+birth_date = input("Enter a date (YYYY-MM-DD): ")
+birth_day = datetime.strptime(birth_date, "%Y-%m-%d")
+day_of_week = birth_day.strftime("%A")
+print(day_of_week)
